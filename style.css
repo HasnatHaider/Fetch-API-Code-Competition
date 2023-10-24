@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Black+Ops+One&family=Dancing+Script:wght@500&family=Dosis:wght@500&family=Handjet&family=Josefin+Sans:wght@300&family=PT+Sans+Narrow&family=Poppins:wght@300;400;500&family=Roboto:wght@900&display=swap');
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: 'PT Sans Narrow', sans-serif !important;
+    letter-spacing: 0.05rem !important;
+    background-color: #E9F7EF !important;
+}
+
+.cardInside {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.buttonSet {
+    margin-top: 20px;
+}
+
+.navbarbtn {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    letter-spacing: 1.0rem !important;
+    font-weight: bold;
+}
+
+.cardList {
+    padding-top: 4%;
+}
+
+.btn {
+    border-radius: 20px !important;
+    background-color: orangered !important;
+    border: none !important;
+}
+
+.btn:hover {
+    background-color: #c23400 !important;
+    transition: all 0.3s ease 0s;
+}
+
+.card {
+    border: none !important;
+    border-radius: 15px !important;
+    transition: transform 0.30s;
+}
+
+.card-img-top {
+    border: none !important;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+}
+
+.card:hover {
+    transform: translateY(-1.0rem);
+    box-shadow: 0 1rem 1rem 0 #85929e8a;
+}
+
+.paraSection {
+    padding-top: 9%!important;
+    width: 60% !important;
+    font-size: 19px;
+}
+
+.custom-footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.custom-footer p {
+    margin: 0;
+}
